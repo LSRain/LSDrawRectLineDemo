@@ -16,9 +16,11 @@
     CGContextRef cxt = UIGraphicsGetCurrentContext();
     /// 设置起点
     CGContextMoveToPoint(cxt, 50, 50);
-    /// 设置终点
-    CGContextAddLineToPoint(cxt, 80, 250);
-    /// 描边
+    /// 设置终点 - 添加线
+    CGContextAddLineToPoint(cxt, 50, 250);
+    CGContextAddLineToPoint(cxt, 250, 50);
+    CGContextClosePath(cxt);
+    /// 描边 - 渲染
     CGContextDrawPath(cxt, kCGPathStroke);
 }
 

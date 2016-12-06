@@ -14,6 +14,7 @@
 		512DF27A1DF73411009A5B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512DF2791DF73411009A5B6E /* Assets.xcassets */; };
 		512DF27D1DF73411009A5B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512DF27B1DF73411009A5B6E /* LaunchScreen.storyboard */; };
 		512DF2861DF739AF009A5B6E /* LSDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DF2851DF739AF009A5B6E /* LSDrawRectView.m */; };
+		512DF2891DF7445A009A5B6E /* LSDrawRectViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 512DF2881DF7445A009A5B6E /* LSDrawRectViewTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		512DF27E1DF73411009A5B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512DF2841DF739AF009A5B6E /* LSDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDrawRectView.h; sourceTree = "<group>"; };
 		512DF2851DF739AF009A5B6E /* LSDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDrawRectView.m; sourceTree = "<group>"; };
+		512DF2871DF7445A009A5B6E /* LSDrawRectViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDrawRectViewTwo.h; sourceTree = "<group>"; };
+		512DF2881DF7445A009A5B6E /* LSDrawRectViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDrawRectViewTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				512DF26D1DF73411009A5B6E /* Supporting Files */,
 				512DF2841DF739AF009A5B6E /* LSDrawRectView.h */,
 				512DF2851DF739AF009A5B6E /* LSDrawRectView.m */,
+				512DF2871DF7445A009A5B6E /* LSDrawRectViewTwo.h */,
+				512DF2881DF7445A009A5B6E /* LSDrawRectViewTwo.m */,
 			);
 			path = LSDrawRectLineDemo;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512DF2751DF73411009A5B6E /* ViewController.m in Sources */,
+				512DF2891DF7445A009A5B6E /* LSDrawRectViewTwo.m in Sources */,
 				512DF2861DF739AF009A5B6E /* LSDrawRectView.m in Sources */,
 				512DF2721DF73411009A5B6E /* AppDelegate.m in Sources */,
 				512DF26F1DF73411009A5B6E /* main.m in Sources */,
