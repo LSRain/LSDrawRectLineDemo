@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSDrawRectView.h"
 
 @interface ViewController ()
 
@@ -14,14 +15,13 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    
+    LSDrawRectView *view = [[LSDrawRectView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
     view.center = self.view.center;
-    view.backgroundColor = [UIColor blueColor];
-    
     [self.view addSubview:view];
-    
 }
 
 
