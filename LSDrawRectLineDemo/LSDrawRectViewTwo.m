@@ -23,6 +23,10 @@
     CGPathCloseSubpath(path);
     CGContextAddPath(cxt, path);
     CGContextDrawPath(cxt, kCGPathStroke);
+    /// 释放路径
+    CGPathRelease(path);
+    /// 也可以使用 `CFRelease`
+    //CFRelease(path);
 }
 
 @end
